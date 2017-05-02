@@ -17,6 +17,32 @@ If you want to read change logs before `2.0.0`, please visit [GitHub](https://gi
 
 ---
 
+## 2.10.0
+
+`2017-05-02`
+
+- LocaleProvider
+  - Support Traditional Chinese. [#5665](https://github.com/ant-design/ant-design/pull/5665) [@GeorgioWan](https://github.com/GeorgioWan)
+  - Support Finnish. [#5699](https://github.com/ant-design/ant-design/pull/5699) [@kirbo](https://github.com/kirbo)
+  - Support Vietnamese. [#5927](https://github.com/ant-design/ant-design/pull/5927) [@pnghai](https://github.com/pnghai)
+  - Update Spanish. [#5932](https://github.com/ant-design/ant-design/pull/5932) [@ginodeise](https://github.com/ginodeis)
+- AutoComplete supports to listen to search events by `onSearch`. [#5888](https://github.com/ant-design/ant-design/issues/5888)
+- Checkbox.Group can support more flexible layout with nested Checkbox. [demo](http://ant.design/components/checkbox-cn/#components-checkbox-demo-layout)
+- TimePicker's open status can be controlled by `open` property. [#5913](https://github.com/ant-design/ant-design/pull/5913)
+- The returned value of Upload[onRemove] could be a promise to control remove logic asynchronously. [#5973](https://github.com/ant-design/ant-design/issues/5973) [@shlice](https://github.com/shlice)
+- Adjust padding of popup of Dropdown. [#5088](https://github.com/ant-design/ant-design/issues/5088)
+- Fix broken style while using Cascader in Card[title]. [#5952](https://github.com/ant-design/ant-design/issues/5952)
+- Fix broken disabled style of Checkbox Radio. [#5935](https://github.com/ant-design/ant-design/issues/5935)
+- Fix broken style of DatePicker with nested TimePicker while using `use12Hours`. [#5959](https://github.com/ant-design/ant-design/issues/5959)
+- Fix broken style while using AutoComplete, Cascader, Mention, TimePicker in Input.Group. [#5832](https://github.com/ant-design/ant-design/issues/5832)
+- Fix missing TypeScript definition of `inlineIndent` Menu. [#5903](https://github.com/ant-design/ant-design/pull/5903) [@brookshi](https://github.com/brooksh)
+- Fix errors while using RangePicker with Form. [#5872](https://github.com/ant-design/ant-design/issues/5872)
+- Fix that pagination is clickable when Table with loading status. [#5937](https://github.com/ant-design/ant-design/issues/5937)
+- Tabs
+  - Fix broken style while using Table or Form in Tabs. [#5953](https://github.com/ant-design/ant-design/issues/5953)
+  - Fix broken style of vertical layout. [#5877](https://github.com/ant-design/ant-design/issues/5877)
+- Fix invisible search result list of Transfer. [#5631](https://github.com/ant-design/ant-design/issues/5631)
+
 ## 2.9.3
 
 `2017-04-24`
