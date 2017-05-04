@@ -59,7 +59,9 @@ class EditableCell extends React.Component {
             </div>
             :
             <div className="editable-row-text">
-              {value.toString() || ' '}
+              {
+                value==undefined?'':value.toString() || ' '
+              }
             </div>
         }
       </div>
